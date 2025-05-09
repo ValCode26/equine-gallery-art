@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #6E7F80;    /* Storm gray */
+  --secondary-color: #A3B4B5;  /* Mist */
+  --accent-color: #4A5F68;     /* Deep slate */
+  --background-color: #F5F7F7; /* Snow */
+  --text-color: #2C3E40;      /* Pine green */
+  --light-text: #FFFFFF;
+  --navbar-height: 80px;
+   
+    
+    
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  color: var(--text-color);
+  background-image: url('texture.png');
+  background-blend-mode: multiply;
+  background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

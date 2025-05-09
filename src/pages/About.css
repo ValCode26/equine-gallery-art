@@ -1,0 +1,121 @@
+.about-page {
+    padding-top: 2rem;
+  }
+  
+  .about-hero {
+    background: linear-gradient(rgba(93, 64, 55, 0.7), rgba(93, 64, 55, 0.7)), 
+                url('/images/about-hero.jpg') center/cover no-repeat;
+    color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .about-hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #f8e9d9;
+  }
+  
+  .about-hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .artist-details {
+    padding: 4rem 0;
+    background-color: #fff9f2;
+  }
+  
+  .artist-details .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .detail-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .detail-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .detail-card h3 {
+    color: #d7a27e;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .detail-card p {
+    line-height: 1.6;
+    color: #5d4037;
+  }
+  
+  .studio-section {
+    padding: 4rem 0;
+  }
+  
+  .studio-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .studio-text {
+    flex: 1;
+  }
+  
+  .studio-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #5d4037;
+  }
+  
+  .studio-text p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .studio-image {
+    flex: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .studio-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  
+  .studio-image:hover img {
+    transform: scale(1.03);
+  }
+  
+  @media (max-width: 768px) {
+    .studio-content {
+      flex-direction: column;
+    }
+    
+    .about-hero h1 {
+      font-size: 2.2rem;
+    }
+    
+    .artist-details .container {
+      grid-template-columns: 1fr;
+    }
+  }
