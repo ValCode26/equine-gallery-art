@@ -15,7 +15,7 @@ const resources = {
       heroText: "Discover the beauty of horses through fine art",
       aboutTitle: "About the Artist",
       aboutText:
-        "I'm a passionate equine artist dedicated to capturing the spirit and grace of horses in my work. With over 3 years of experience, I blend traditional photographic techniques with cutting-edge digital processes to create limited edition art prints",
+        "Discover my story, the techniques I use, and the philosophy behind my art.",
       ctaButton: "View Gallery",
       contactButton: "Get in Touch",
       contactTitle: "Contact Me",
@@ -33,9 +33,6 @@ const resources = {
       formSuccessMessage:
         "Thank you for your message! I'll get back to you soon.",
       sendAnother: "Send another message",
-      aboutTitle: "About the Artist",
-      aboutText:
-        "Discover my story, the techniques I use, and the philosophy behind my art.",
       journeyTitle: "My Journey",
       journeyText:
         "My passion for equine art began in childhood when I first encountered horses. Their grace and power captivated me, and I've been translating that fascination onto canvas ever since.",
@@ -63,7 +60,7 @@ const resources = {
       heroText: "Descoperă frumusețea cailor prin arta fină",
       aboutTitle: "Despre Artist",
       aboutText:
-        "Sunt un artist pasionat de cai, dedicat să surprind spiritul și grația acestor animale în lucrările mele. Cu peste 3 ani de experiență, combin tehnici fotografice tradiționale cu procese digitale de ultimă oră pentru a crea printuri de excepție.",
+        "Descoperă povestea mea, tehnicile folosite și filosofia care îmi ghidează arta.",
       ctaButton: "Vezi Galeria",
       contactButton: "Contactează-mă",
       contactTitle: "Contact",
@@ -82,9 +79,6 @@ const resources = {
       formSuccessMessage:
         "Vă mulțumim pentru mesaj! Vă voi răspunde în curând.",
       sendAnother: "Trimite alt mesaj",
-      aboutTitle: "Despre Artist",
-      aboutText:
-        "Descoperă povestea mea, tehnicile folosite și filosofia care îmi ghidează arta.",
       journeyTitle: "Călătoria Mea",
       journeyText:
         "Pasiunea mea pentru arta ecvină a început în copilărie, când am întâlnit pentru prima dată caii. Grația și puterea lor m-au captivat, iar de atunci încerc să redau acea fascinație pe pânză.",
@@ -110,9 +104,9 @@ const resources = {
       signup: "Registrati",
       welcome: "Benvenuti nel mio mondo equestre",
       heroText: "Scopri la bellezza dei cavalli attraverso l'arte",
-      aboutTitle: "Sull'Artista",
+      aboutTitle: "Informazioni sull'Artista",
       aboutText:
-        "Sono un artista equino appassionato, dedicato a catturare lo spirito e la grazia dei cavalli nel mio lavoro. Con oltre 3 anni di esperienza, unisco tecniche fotografiche tradizionali a processi digitali all'avanguardia per creare stampe d'autore.",
+        "Scopri la mia storia, le tecniche che utilizzo e la filosofia che guida la mia arte.",
       ctaButton: "Vedi Galleria",
       contactButton: "Contattami",
       contactTitle: "Contatto",
@@ -131,9 +125,6 @@ const resources = {
       formSuccessMessage:
         "Grazie per il tuo messaggio! Ti risponderò al più presto.",
       sendAnother: "Invia un altro messaggio",
-      aboutTitle: "Informazioni sull'Artista",
-      aboutText:
-        "Scopri la mia storia, le tecniche che utilizzo e la filosofia che guida la mia arte.",
       journeyTitle: "Il Mio Percorso",
       journeyText:
         "La mia passione per l’arte equina è iniziata da bambino, quando ho incontrato per la prima volta i cavalli. La loro grazia e potenza mi hanno affascinato, e da allora cerco di tradurre quella fascinazione sulla tela.",
